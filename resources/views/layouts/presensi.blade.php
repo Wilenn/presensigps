@@ -28,7 +28,7 @@
     </div>
     <!-- * loader -->
 
-
+    @yield('header')
 
     <!-- App Capsule -->
     <div id="appCapsule">
@@ -41,7 +41,7 @@
 
 
 
-@include('layouts.script')
+    @include('layouts.script')
 
 </body>
 
